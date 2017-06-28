@@ -85,6 +85,7 @@ header{
 /* table */
 
 table{
+  padding-top: 30px;
   width: 100%;
   border-collapse: collapse;
 }
@@ -114,8 +115,8 @@ th{
   padding: 20px 10px 20px 10px;
 }
 
-table img{
-  max-width: 35%;
+td img{
+  width: 35%;
   height: auto;
 }
 
@@ -124,7 +125,7 @@ table img{
 form{
   border-radius: 12px;
   background-color: #d9d9d9;
-
+  padding: 20px;
 }
 
 .name{
@@ -135,12 +136,43 @@ form{
   color: white;
 }
 
+#first_name{
+  width: 300px;
+  height: 40px;
+}
+
+#last_name{
+  width: 300px;
+  height: 40px;
+}
+
 .city_container{
   margin: 10px 20px 30px 20px;
 }
 
+.city_container label{
+  font-weight: bold;
+}
+
 .bio_container{
   margin: 10px 20px 30px 20px;
+}
+
+.bio_container label{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#bio{
+  margin-top: 25px;
+}
+
+textarea{
+  border: 1px solid #1fabe5;
+  padding: 25px;
+  max-width: 95%;
+  height: auto;
+  font-size: 17px;
 }
 
 .submit_container{
