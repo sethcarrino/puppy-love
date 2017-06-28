@@ -13,12 +13,14 @@ colors:
     dark blue - #046c97
 */
 
+
 /* main */
-html{
+
+html {
   background-color: #dddddd;
 }
 
-body{
+body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 80px;
   background-color: white;
@@ -26,37 +28,38 @@ body{
   box-shadow: 5px 5px 5px #888888;
 }
 
-h2{
+h2 {
   color: #1fabe5;
 }
 
-h3{
+h3 {
   color: #1fabe5;
 }
 
-a{
+a {
   color: #1fabe5;
 }
+
 
 /* header */
 
-header{
+header {
   padding: 20px 35px 20px 35px;
 }
 
-
-#site_header{
+#site_header {
   background-color: #ff8523
 }
 
+
 /* navigation */
 
-.main_navigation{
+.main_navigation {
   padding-top: 25px;
   padding-bottom: 30px;
 }
 
-.main_navigation a{
+.main_navigation a {
   border-radius: 8px;
   border: 1px solid #ffffff;
   text-decoration: none;
@@ -65,70 +68,73 @@ header{
   padding: 10px 25px 10px 25px;
 }
 
+
 /* page content */
 
-.puppies{
+.puppies {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-.puppy_love{
+.puppy_love {
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: 3px solid #d9d9d9;
 }
 
-#page_content{
+#page_content {
   margin: 50px;
 }
 
+
 /* table */
 
-table{
+table {
   padding-top: 30px;
   width: 100%;
   border-collapse: collapse;
 }
 
-.table_section{
+.table_section {
   border-top: 3px solid #d9d9d9;
   border-bottom: 3px solid #d9d9d9;
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-thead{
+thead {
   background-color: #1fabe5;
   color: white;
 }
 
 table, td {
-    border: 1px solid #1fabe5;
+  border: 1px solid #1fabe5;
 }
 
-td{
+td {
   padding: 20px 10px 20px 10px;
 }
 
-th{
+th {
   border: 1px solid #046c97;
   padding: 20px 10px 20px 10px;
 }
 
-td img{
+td img {
   width: 35%;
   height: auto;
 }
 
+
 /* form */
 
-form{
+form {
   border-radius: 12px;
   background-color: #d9d9d9;
   padding: 20px;
 }
 
-.name{
+.name {
   border-radius: 12px;
   background-color: #ff8523;
   padding: 25px 50px 25px 50px;
@@ -136,38 +142,38 @@ form{
   color: white;
 }
 
-#first_name{
+#first_name {
   width: 300px;
   height: 40px;
 }
 
-#last_name{
+#last_name {
   width: 300px;
   height: 40px;
 }
 
-.city_container{
+.city_container {
   margin: 10px 20px 30px 20px;
 }
 
-.city_container label{
+.city_container label {
   font-weight: bold;
 }
 
-.bio_container{
+.bio_container {
   margin: 10px 20px 30px 20px;
 }
 
-.bio_container label{
+.bio_container label {
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#bio{
+#bio {
   margin-top: 25px;
 }
 
-textarea{
+textarea {
   border: 1px solid #1fabe5;
   padding: 25px;
   max-width: 95%;
@@ -175,12 +181,12 @@ textarea{
   font-size: 17px;
 }
 
-.submit_container{
+.submit_container {
   margin: 10px 20px 30px 20px;
   padding-bottom: 20px;
 }
 
-#submit_button{
+#submit_button {
   background-color: #1fabe5;
   color: white;
   padding: 15px 25px 15px 25px;
