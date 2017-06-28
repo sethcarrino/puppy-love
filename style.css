@@ -18,6 +18,7 @@ colors:
 
 html {
   background-color: #dddddd;
+  background-image: url("images/pattern.jpg");
 }
 
 body {
@@ -26,6 +27,7 @@ body {
   background-color: white;
   border: 2px solid #ffd24a;
   box-shadow: 5px 5px 5px #888888;
+
 }
 
 h2 {
