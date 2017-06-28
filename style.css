@@ -12,3 +12,149 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+/* main */
+html{
+  background-color: #dddddd;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 80px;
+  background-color: white;
+  border: 2px solid #ffd24a;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+h2{
+  color: #1fabe5;
+}
+
+h3{
+  color: #1fabe5;
+}
+
+a{
+  color: #1fabe5;
+}
+
+/* header */
+
+header{
+  padding: 20px 35px 20px 35px;
+}
+
+
+#site_header{
+  background-color: #ff8523
+}
+
+/* navigation */
+
+.main_navigation{
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.main_navigation a{
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 10px 25px 10px 25px;
+}
+
+/* page content */
+
+.puppies{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.puppy_love{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+#page_content{
+  margin: 50px;
+}
+
+/* table */
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table_section{
+  border-top: 3px solid #d9d9d9;
+  border-bottom: 3px solid #d9d9d9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+thead{
+  background-color: #1fabe5;
+  color: white;
+}
+
+table, td {
+    border: 1px solid #1fabe5;
+}
+
+td{
+  padding: 20px 10px 20px 10px;
+}
+
+th{
+  border: 1px solid #046c97;
+  padding: 20px 10px 20px 10px;
+}
+
+table img{
+  max-width: 35%;
+  height: auto;
+}
+
+/* form */
+
+form{
+  border-radius: 12px;
+  background-color: #d9d9d9;
+
+}
+
+.name{
+  border-radius: 12px;
+  background-color: #ff8523;
+  padding: 25px 50px 25px 50px;
+  margin: 10px 20px 30px 20px;
+  color: white;
+}
+
+.city_container{
+  margin: 10px 20px 30px 20px;
+}
+
+.bio_container{
+  margin: 10px 20px 30px 20px;
+}
+
+.submit_container{
+  margin: 10px 20px 30px 20px;
+  padding-bottom: 20px;
+}
+
+#submit_button{
+  background-color: #1fabe5;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  text-transform: capitalize;
+}
